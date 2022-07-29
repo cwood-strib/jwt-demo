@@ -37,7 +37,7 @@ app.post('/sign2', (req, res) => {
   }
 
   // TODO: validate they exist or throw 400
-  let token = signTokenTwo(article_id, sub_id);
+  let token = signToken(article_id, sub_id);
 
   return res.json({
     token

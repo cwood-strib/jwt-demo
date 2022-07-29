@@ -15,6 +15,8 @@ function signToken(articleId, userId) {
   }, PRIVATE_KEY);
 }
 
+
+// Example for signing token with a different key
 function signTokenTwo(articleId, userId) {
   const twoWeeks = Math.floor(Date.now() / 1000) + (60 * 60 * 24 * 14);
 
